@@ -103,6 +103,7 @@ Modeling relationships between:
 ### 1. Reintegration Does Not Suppress Mobility
 Improved post-return conditions are associated with **higher likelihood of legal re-migration**.
 
+
 ---
 
 ### 2. Mobility as Capability, Not Failure
@@ -176,6 +177,11 @@ Examples include:
 - circular and seasonal migration  
 
 ---
+
+## Key Visual Insights
+Reintegration reshapes mobility aspirations
+Returnees with stronger wellbeing and financial stability are more likely to pursue legal migration pathways, while social networks continue to shape both legal and irregular migration outcomes.
+![Reintegration and mobility](visuals/visual_1_reintegration_mobility_economist_style.png)
 
 ## Repository Structure
 afghan-returnees-reintegration-analysis/
