@@ -1,127 +1,221 @@
-# Afghan Returnees Reintegration Analysis
+# Beyond Immobility: Rethinking Reintegration and Mobility Among Afghan Returnees  
+**A Data-Driven Analysis of Post-Return Capabilities, Wellbeing, and Migration Trajectories**
+
+---
 
 ## Overview
 
-This repository presents a data-driven analysis of reintegration outcomes, resilience, and migration dynamics among Afghan returnees. The project combines quantitative and qualitative approaches to examine how return experiences shape economic, social, and psychosocial outcomes, as well as future migration aspirations.
+This project presents a **mixed-methods analysis of Afghan returnees**, examining how reintegration experiences shape **psychological wellbeing, social capital, and subsequent mobility aspirations**.
 
-The analysis is based on data collected as part of a European Commission-funded research project, complemented by qualitative interviews and published academic work.
+Challenging dominant policy assumptions, the analysis demonstrates that:
 
----
+> **Return does not mark the end of migration trajectories — it reshapes them.**
 
-## Key Model Visualization
-
-![SEM Model](visuals/sem/sem_path_diagram.png)
+Using survey data, qualitative insights, and advanced statistical modeling, this project reinterprets post-return mobility not as a failure of reintegration, but as a **potential expression of agency and capability**.
 
 ---
 
-## Research Objectives
+## Research Problem
 
-- To assess whether return leads to sustainable reintegration across economic, social, and psychosocial dimensions  
-- To identify key factors influencing reintegration outcomes  
-- To examine the relationship between post-return experiences and re-migration aspirations  
-- To contribute to policy discussions on return and reintegration in fragile contexts  
+Migration governance frameworks have long assumed that:
+
+- successful reintegration leads to **settlement**
+- post-return mobility indicates **failure**
+
+This project challenges that assumption.
+
+In the Afghan context—characterized by prolonged displacement, forced returns, and structural constraints—returnees frequently continue to express aspirations to migrate.
+
+This raises a critical question:
+
+> **Does reintegration reduce migration, or does it reshape how migration is pursued?**
 
 ---
 
-## Data Description
+## Conceptual Contribution
 
-The analysis draws on:
+This project applies:
 
-- Survey data (n ≈ 400 Afghan returnees)  
-- Qualitative interviews (35+ participants)  
-- Return contexts: Iran, Pakistan, Turkey, and Europe  
+- **Aspirations–Capabilities Framework** (de Haas)  
+- **Capability Approach** (Amartya Sen)
 
-Due to ethical and confidentiality considerations related to vulnerable populations, the original dataset is not publicly shared. Where applicable, simulated or anonymized data may be provided to demonstrate the analytical workflow.
+to reconceptualize post-return outcomes.
+
+From this perspective:
+
+- mobility is not merely a response to deprivation  
+- it can represent a **valued capability**  
+- reintegration may **expand choices**, not suppress movement  
+
+---
+
+## Data and Context
+
+The analysis is based on:
+
+- **Survey data**: 416 Afghan returnees  
+- **Qualitative interviews**: 35+ life histories  
+- **Return contexts**: Iran, Pakistan, Türkiye, and Europe  
+- **Geographic coverage**: Kabul, Herat, Balkh, Kandahar  
+
+Data was collected as part of a **European Commission-funded research project (GAPs)**.
+
+Due to ethical considerations, raw data is not publicly shared.  
+Where applicable, anonymized or simulated data is provided to demonstrate the analytical workflow.
 
 ---
 
 ## Methodology
 
-This project applies a mixed-methods approach, combining:
+A structured analytical pipeline combines quantitative rigor with qualitative interpretation:
 
-### 1. Exploratory Data Analysis (EDA)
-- Descriptive statistics  
-- Distribution analysis  
-- Correlation structures  
-
-### 2. Factor Analysis
-- Construction of latent variables (e.g., resilience, wellbeing, reintegration dimensions)  
-- Dimensionality reduction and validation  
-
-### 3. Structural Equation Modeling (SEM)
-- Modeling relationships between:
-  - Reintegration outcomes  
-  - Psychosocial variables  
-  - Migration aspirations  
-- Evaluation of direct and indirect effects  
-
-### 4. Qualitative Analysis
-- Thematic analysis of returnee experiences  
-- Interpretation of statistical findings within lived realities  
+### 1. Psychometric Modeling
+- Classical Test Theory (CTT)
+- Confirmatory Factor Analysis (CFA)
+- Construction of a **unified Wellbeing construct**
+  - Hope  
+  - Resilience  
+  - Depression (reverse-coded)
 
 ---
 
-## Analytical Pipeline
+### 2. Structural Equation Modeling (SEM)
+Modeling relationships between:
 
-This project follows a structured analytical workflow:
-
-1. Data preparation and cleaning  
-2. Scale construction (Hope, Resilience, Depression)  
-3. Descriptive analysis and distribution checks  
-4. Classical Test Theory (CTT) item analysis  
-5. Confirmatory Factor Analysis (CFA)  
-6. Final measurement model (Wellbeing construct)  
-7. Variable construction (social and economic embeddedness)  
-8. Structural Equation Modeling (SEM)  
-9. Visualization of results  
-
-All steps are implemented in modular R scripts to ensure reproducibility.
+- Initial migration aspirations  
+- Return experiences (forced vs voluntary)  
+- Psychological wellbeing  
+- Social capital (family, networks, community)  
+- Skills acquired abroad  
+- Likelihood of re-migration (legal & irregular)
 
 ---
 
-## Key Insights
+### 3. Qualitative Analysis
+- Thematic interpretation of return experiences  
+- Contextualization of statistical relationships  
+- Grounding findings in lived realities  
 
-- Reintegration is often incomplete, particularly among forcibly returned individuals  
-- Psychosocial wellbeing is a central determinant of post-return outcomes  
-- Social embeddedness (family, friends, community activity) plays a critical role in shaping migration intentions  
-- Financial stability significantly influences legal migration pathways  
-- Re-migration aspirations emerge as a rational response to structural and economic constraints  
+---
 
-This analysis demonstrates that mobility is not necessarily a failure of reintegration, but can function as a form of adaptive resilience.
+## Key Findings
+
+### 1. Reintegration Does Not Suppress Mobility
+Improved post-return conditions are associated with **higher likelihood of legal re-migration**.
+
+---
+
+### 2. Mobility as Capability, Not Failure
+Returnees with:
+- better wellbeing  
+- stronger social engagement  
+- improved financial stability  
+
+are more likely to pursue **legal migration pathways**.
+
+---
+
+### 3. Forced Return Fractures Agency
+Forced return is associated with:
+- lower psychological wellbeing  
+- reduced community participation  
+- increased reliance on family support  
+
+---
+
+### 4. Social Networks Enable Migration Pathways
+- Community engagement increases both:
+  - legal migration potential  
+  - and irregular migration pathways (via networks)
+
+---
+
+### 5. Skills Reconfigure Migration Strategies
+- Skills acquired abroad reduce reliance on irregular migration  
+- Enable more structured and legal mobility pathways  
+
+---
+
+### 6. Gendered Constraints Shape Outcomes
+Women experience:
+- lower wellbeing  
+- reduced public participation  
+- constrained capability to act on aspirations  
+
+---
+
+## Interpretation
+
+These findings suggest that:
+
+> **Reintegration reshapes migration trajectories rather than resolving them.**
+
+Post-return life is characterized by:
+
+- fragmented but evolving agency  
+- conditional access to opportunities  
+- persistent and adaptive mobility aspirations  
+
+---
+
+## Policy Implications
+
+The results challenge **sedentarist assumptions** in migration governance.
+
+They suggest that:
+
+- mobility should not be treated as policy failure  
+- reintegration frameworks should anticipate onward movement  
+- legal migration pathways are critical components of durable solutions  
+
+Examples include:
+
+- labor mobility schemes  
+- education pathways  
+- family reunification  
+- circular and seasonal migration  
 
 ---
 
 ## Repository Structure
-├── data/ # Processed or simulated datasets
-├── scripts/ # R scripts for full analytical pipeline
-├── notebooks/ # RMarkdown workflow
-├── outputs/ # Model outputs and results
-├── visuals/ # Graphs and SEM diagrams
-├── docs/ # Methodology and documentation
-└── reports/ # Publications and related outputs
+afghan-returnees-reintegration-analysis/
+
+### ├── data/ # Processed / simulated datasets
+### ├── scripts/ # Full analytical pipeline (R)
+### ├── notebooks/ # RMarkdown workflow
+### ├── outputs/ # Model outputs and results
+### ├── visuals/ # Figures and SEM diagrams
+### ├── docs/ # Methodological notes
+### └── reports/ # Publications and drafts
 
 
 ---
 
 ## Reproducibility
 
-The repository is structured to demonstrate a complete analytical workflow:
+The repository is designed to demonstrate a **complete research workflow**:
 
-- Modular scripts for each stage of analysis  
-- Saved intermediate datasets and model outputs  
-- Clear separation between data preparation, modeling, and visualization  
-
-This ensures transparency and replicability of results.
+- modular scripts  
+- structured data pipeline  
+- replicable modeling process  
+- transparent analytical steps  
 
 ---
 
 ## Ethical Considerations
 
-This project involves sensitive data related to vulnerable populations.
+- No personally identifiable data is shared  
+- Analysis adheres to ethical standards for vulnerable populations  
+- Data access is restricted due to sensitivity  
 
-- No personally identifiable information is included  
-- Raw data is not shared publicly  
-- Analysis follows ethical standards for research on human subjects  
+---
+
+## Related Publication
+
+This repository supports the forthcoming article:
+
+**“Beyond Immobility: Rethinking Sustainable Return and Mobility Aspirations Among Afghan Returnees”**  
+(Under review, *International Migration Journal*)
 
 ---
 
@@ -130,52 +224,39 @@ This project involves sensitive data related to vulnerable populations.
 **Shapoor Hamid**  
 Migration Researcher & Data Analyst  
 
-** Matthew G. R. Courtney **
-Pyschometrician and Researcher
-
-### Specialization:
+Specialization:
 - Migration & Reintegration Analysis  
-- Psychosocial Measurement (Resilience, Wellbeing)  
+- Psychosocial Measurement  
 - Structural Equation Modeling (SEM)  
 - Mixed-Methods Research  
-
-### Technical Tools:
-- R (lavaan, psych, CTT, tidyverse)  
-- Python  
-- Tableau  
-- Atlas.ti  
-
-### Publications:
-- *Enduring Aspirations and Continuous Mobility* (International Migration, 2025)  
-- *Beyond Borders: Afghanistan’s Migration Dynamics* (International Migration Review, 2024)  
-
----
-
-## Related Work
-
-- European Commission-funded GAPs project  
-- Blog articles and reports on Afghan returnees  
-- Ongoing research on resilience and migration dynamics  
 
 ---
 
 ## Why This Project Matters
 
-This project demonstrates how advanced statistical modeling can be applied to real-world humanitarian and migration challenges.
+This project demonstrates how:
 
-It bridges:
-- Data science and social science  
-- Quantitative modeling and qualitative insight  
-- Academic research and policy relevance  
+- advanced statistical modeling  
+- theoretical frameworks  
+- and field-based data  
 
-The approach is directly applicable to:
+can be combined to produce **policy-relevant insights** in complex humanitarian contexts.
+
+It is directly applicable to:
+
 - UN agencies  
 - NGOs  
-- Development organizations  
-- Policy research institutions  
+- development organizations  
+- migration policy research  
 
 ---
 
 ## Status
 
-This repository is actively being developed and expanded with additional analyses and visualizations.
+This repository is actively maintained and will be updated with:
+
+- final publication  
+- additional visualizations  
+- extended analysis  
+
+---
