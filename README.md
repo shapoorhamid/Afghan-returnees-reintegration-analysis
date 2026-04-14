@@ -189,10 +189,11 @@ Returnees who were forcibly returned report lower psychological wellbeing and re
 
 ### Women face narrower reintegration pathways
 Women returnees experience lower wellbeing, reduced public participation, and limited access to skill-building opportunities, reflecting structurally constrained post-return choices.
+![Gendered Reintegration](visuals/visual_3_gendered_reintegration_constraints.png)
 
 ### Mobility can reflect capability, not policy failure
 Improved post-return conditions can expand returnees’ capability to move, suggesting that mobility may represent agency and opportunity, rather than a failure of reintegration.
-
+![Mobility as Capability](visuals/visual_4_mobility_as_capability.png)
 
 ## Repository Structure
 afghan-returnees-reintegration-analysis/
