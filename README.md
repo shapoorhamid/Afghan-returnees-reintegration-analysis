@@ -179,9 +179,20 @@ Examples include:
 ---
 
 ## Key Visual Insights
-Reintegration reshapes mobility aspirations
+### Reintegration reshapes mobility aspirations
 Returnees with stronger wellbeing and financial stability are more likely to pursue legal migration pathways, while social networks continue to shape both legal and irregular migration outcomes.
 ![Reintegration and mobility](visuals/visual_1_reintegration_mobility_economist_style.png)
+
+### Forced return weakens reintegration outcomes
+Returnees who were forcibly returned report lower psychological wellbeing and reduced community participation, even when family support increases in the short term.
+![Forced Return Reintegration](visuals/visual_2_forced_return_reintegration.png)
+
+### Women face narrower reintegration pathways
+Women returnees experience lower wellbeing, reduced public participation, and limited access to skill-building opportunities, reflecting structurally constrained post-return choices.
+
+### Mobility can reflect capability, not policy failure
+Improved post-return conditions can expand returnees’ capability to move, suggesting that mobility may represent agency and opportunity, rather than a failure of reintegration.
+
 
 ## Repository Structure
 afghan-returnees-reintegration-analysis/
