@@ -198,13 +198,13 @@ Improved post-return conditions can expand returnees’ capability to move, sugg
 ## Repository Structure
 afghan-returnees-reintegration-analysis/
 
-### ├── data/ # Processed / simulated datasets
-### ├── scripts/ # Full analytical pipeline (R)
-### ├── notebooks/ # RMarkdown workflow
-### ├── outputs/ # Model outputs and results
-### ├── visuals/ # Figures and SEM diagrams
-### ├── docs/ # Methodological notes
-### └── reports/ # Publications and drafts
+##### ├── data/ # Processed / simulated datasets
+##### ├── scripts/ # Full analytical pipeline (R)
+##### ├── notebooks/ # RMarkdown workflow
+##### ├── outputs/ # Model outputs and results
+##### ├── visuals/ # Figures and SEM diagrams
+##### ├── docs/ # Methodological notes
+##### └── reports/ # Publications and drafts
 
 
 ---
